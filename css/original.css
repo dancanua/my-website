@@ -1,0 +1,718 @@
+original media.css
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  #myname{
+    margin-left: 8%;
+  }
+  #desc-box{
+    margin-left: 9%;
+  }
+  .address{
+    margin-left: 7%;
+    font-family: Georgia, serif;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .pl-php{
+    margin-left: 50%;
+    margin-top: -15%;
+  }
+  .pl-js{
+    margin-left: 50%;
+    margin-top: -5%;
+  }
+  .pl-jq{
+    margin-left: 15%;
+    margin-top: -5%;
+  }
+  .pl-bs{
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  #soc-icon{
+    width: 100px;
+  }
+  .ensure{
+    margin-left: 30%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .thirdlayer{
+    margin-left: 20%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .seclayer{
+    margin-left: 22%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .firstlayer{
+    font-size: 25px;
+    text-align: center;
+  }
+}
+  
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+   #myname{
+    margin-left: 8%;
+   }
+   #desc-box{
+    margin-left: 9%;
+  }
+  .address{
+    margin-left: 6%;
+    font-family: Georgia, serif;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .pl-php{
+    margin-left: 37%;
+    margin-top: -10%;
+  }
+  .pl-js{
+    margin-left: 40%;
+    margin-top: -3%;
+  }
+  .pl-jq{
+    margin-left: 20%;
+    margin-top: -5%;
+  }
+  .pl-bs{
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  .ensure{
+    margin-left: 30%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .thirdlayer{
+    margin-left: 20%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .seclayer{
+    margin-left: 22%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .firstlayer{
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #myname{
+    margin-left: 10%;
+  }
+  #desc-box{
+    margin-left: 12%;
+  }
+  .address{
+    margin-left: 10%;
+    font-family: Georgia, serif;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .pl-php{
+    margin-left: 37%;
+    margin-top: -21%;
+  }
+  .pl-js{
+    margin-left: 37%;
+    margin-top: -10%;
+  }
+  .pl-jq{
+    margin-left: 25%;
+    margin-top: -10%;
+  }
+  .pl-bs{
+    margin-left: 15%;
+    margin-top: -10%;
+  }
+  .firstlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  #myname{
+    margin-left: 10%;
+  }
+  .pl-php{
+    margin-left: 10%;
+    margin-top: -5%;
+  }
+  .pl-js{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .pl-jq{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .pl-bs{
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  .ensure{
+    margin-left: 19%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .firstlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #dev-logo{
+    margin-left: 30%;
+  }
+  #main-text{
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 25px;
+  }
+  #myname{
+    margin-left: 38%;
+  }
+  #desc-box{
+    margin-left: 39%;
+  }
+  .address{
+    margin-left: 37%;
+    font-family: Georgia, serif;
+  }
+  #main-text{
+    margin-left: 30%;
+    margin-bottom: 1%;
+    font-size: 60px;
+  }
+  #second-text{
+    margin-left: 23%;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .pl-bs{
+    margin-left: 40%;
+    height: 100%;
+    width: 30%;
+  }
+  .pl-php{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 100%;
+    width: 30%;
+  }
+  .pl-js{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 100%;
+    width: 30%;
+  }
+  .pl-jq{
+    margin-left: 40%;
+    margin-top: 1%;
+    height: 100%;
+    width: 30%;
+  }
+  .ensure{
+    margin-left: 5%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .firstlayer{
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 28%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #myname{
+    margin-left: 33%;
+  }
+  #dev-logo{
+    margin-left: 20%;
+  }
+  #desc-box{
+    margin-left: 33%;
+  }
+  .address{
+      margin-left: 29%;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .ensure{
+    margin-left: 5%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 5px 10px #888888;
+  }
+  .ensure > img{
+    height: 20px;
+    width: 20px;
+  }
+  .firstlayer{
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 18%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .firstlayer > img{
+    height: 100px;
+    width: 100px;
+  }
+  .seclayer > img{
+    height: 100px;
+    width: 100px;
+  }
+  .thirdlayer > img{
+    height: 100px;
+    width: 100px;
+  }
+}
+
+
+
+
+styles.css
+
+
+#desc-box{
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: #7979ff;
+  color: #fff;
+  box-shadow: 5px 10px #888888;
+}
+a.mycvclass{
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: #7979ff;
+  color: #fff;
+  box-shadow: 5px 10px #888888;
+  transition: ease-in-out 0.5s;
+}
+a.mycvclass:hover{
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+}
+header{
+  width: 100%;
+  height: 10px;
+  background-color: #7979ff;
+}
+.style-seven{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/* Progress Bar */
+.loading-bar {
+  position: relative;
+  width: 100%;
+}
+.loading-bar:before {
+  -webkit-animation: loading-bar 0.8s ease-out;
+  -moz-animation: loading-bar 0.8s ease-out;
+  -ms-animation: loading-bar 0.8s ease-out;
+  -o-animation: loading-bar 0.8s ease-out;
+  animation: loading-bar 0.8s ease-out;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: red;
+}
+.loading-bar > * {
+  -webkit-animation: loading-complete 1s ease-out;
+  -moz-animation: loading-complete 1s ease-out;
+  -ms-animation: loading-complete 1s ease-out;
+  -o-animation: loading-complete 1s ease-out;
+  animation: loading-complete 1s ease-out;
+}
+
+@-webkit-keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  80% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  80% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  80% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes loading-bar {
+  0% {
+    width: 0%;
+  }
+  80% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes loading-complete {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes loading-complete {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes loading-complete {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes loading-complete {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#sticky-footer {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+index.php
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Online Portfolio</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Keywords" content="Portfolio,Dan Canua,Programming">
+		<meta name="`Description" content="This is my online Portfolio. I love Web Development.">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css">
+</head>
+<body>
+	<div class="loading-bar">
+<header></header>
+<div class="container">
+<div class="row" style="margin-top: 10%;">
+	<div class="col-md-6" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="1500">
+		<img id="dev-logo" class="img-fluid" src="image/developer.png" alt="Developer">
+		<h4 id="myname">Dan Canua</h4>
+		<span id="desc-box">web developer</span>
+		<br>
+		<br>
+		<p class="address">
+			December 5, 1994 
+			<br>Cabuyao City, Laguna
+		</p>
+	</div>
+	<div class="col-md-6">
+		<div class="glossy-box" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500">
+			<h1 id="main-text">Hi there!</h1>
+			<br>
+			<h3 id="second-text">Welcome to my website.</h3>
+			<br>
+			<p class="desc-text">I am Dan Canua, graduated of BS Computer Science. A freelance web developer in Cabuyao City, Laguna. My first encounter with web development was back in the days, when I am in mid-year in college. I love problem solving, and challenging works about programming.</p>
+			<br>
+			<span id="mycv"><a class="mycvclass" href="file/my_cv.docx" download="My Resume"><i class="fas fa-cloud-download-alt"></i> Download CV</a></span>
+			<span id="hireme"><i class="far fa-heart"></i> Hire me now!</span>
+			<br>
+			<br>
+		</div>
+	</div>
+</div>
+<!-- Second row below -->
+<div class="row">
+	<div class="col-md-12">
+		<hr class="style-seven"></hr>
+	</div>
+	<!-- data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" -->
+     <div class="ensure" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+     	<img src="image/medal.png">&nbsp;Everything is guaranteed in your project!
+     </div>
+</div>
+</div> <!-- this if for container first -->
+<br>
+<div class="container">
+	<div class="row">
+		<div class="firstlayer" data-aos="fade-right"
+     data-aos-duration="1500">
+	     	<img src="image/check.png">
+	     	<br>
+	     	<p>Data Security</p>
+	     </div>
+	     <div class="seclayer" data-aos="fade-down"
+     data-aos-duration="1500">
+	     	<img src="image/check.png">
+	     	<br>
+	     	<p>Program optimization</p>
+	     </div>
+	     <div class="thirdlayer" data-aos="fade-left"
+     data-aos-duration="1500">
+	     	<img src="image/check.png">
+	     	<br>
+	     	<p>User-friendly</p>
+	     </div>
+	</div>
+	<div class="col-md-12">
+		<hr class="style-seven"></hr>
+	</div>
+</div><!--second container -->
+<footer id="sticky-footer" class="py-4">
+    <div class="container">
+      <p>Copyright &copy; 2020 My Website | Developed and Designed by Dan Canua</p>
+    </div>
+</footer>
+ </div> <!-- This div is the paired to class loading bar on the top -->
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.js"></script>
+
+<!-- Bootstrap cdn -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

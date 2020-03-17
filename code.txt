@@ -1,0 +1,83 @@
+<!-- <?php 
+
+	//print desire value inside array	
+
+	$myArray = array("magtiwala", "hindi", "ka", "talaga", "gagaling", "promise", "ka", "haha", "din");
+
+
+	for($a = 0; $a <= 8; $a++){
+		if($a%2==0){
+			echo ucfirst($myArray[$a]) . ", ";
+		}
+	}
+
+	?>
+ -->
+
+<?php 
+
+	//find duplicate
+
+	$arr = array(1,2,3,1,4,5);
+foreach($arr as $key => $val){
+  //remove the item from the array in order 
+  //to prevent printing duplicates twice
+  unset($arr[$key]); 
+  //now if another copy of this key still exists in the array 
+  //print it since it's a dup
+  if (in_array($val,$arr)){
+    echo $val . " ";
+  }
+}
+
+
+
+ ?>
+
+ 	<div class="col-md-3">
+		<img src="image/bs.png" class="img-responsive pl-bs" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+	</div>
+	<div class="col-md-3">
+		<img src="image/jquery.png" class="img-responsive pl-jq" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+	</div>
+	<div class="col-md-3">
+		<img src="image/js.png" class="img-responsive pl-js" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+	</div>
+	<div class="col-md-3">
+		<img src="image/php.png" class="img-responsive pl-php" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+	</div>
+	<br>
+	<br>
+	<div class="col-md-12">
+		<hr class="style-seven"></hr>
+	</div>
+
+
+	// 
+	Data security
+	Program optimization
+	User-friendly
+	
+
+	.thirdlayer{
+    margin-left: 6%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .seclayer{
+    margin-left: 10%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .firstlayer{
+    font-size: 20px;
+    text-align: center;
+  }

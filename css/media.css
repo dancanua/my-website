@@ -1,0 +1,398 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  #myname{
+    margin-left: 8%;
+  }
+  #desc-box{
+    margin-left: 9%;
+  }
+  .address{
+    margin-left: 7%;
+    font-family: Georgia, serif;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  #soc-icon{
+    width: 100px;
+  }
+  .ensure{
+    margin-left: 30%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .thirdlayer{
+    margin-left: 20%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .seclayer{
+    margin-left: 22%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .firstlayer{
+    font-size: 25px;
+    text-align: center;
+  }
+  .technology > p{
+    font-size: 40px;
+  }
+  .percent{
+    margin-top: 45%;
+    margin-left: 45%;
+  }
+  .icons{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 35px;
+  }
+}
+  
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+   #myname{
+    margin-left: 8%;
+   }
+   #desc-box{
+    margin-left: 9%;
+  }
+  .address{
+    margin-left: 6%;
+    font-family: Georgia, serif;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .ensure{
+    margin-left: 30%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .thirdlayer{
+    margin-left: 20%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .seclayer{
+    margin-left: 22%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .firstlayer{
+    font-size: 25px;
+    text-align: center;
+  }
+  .technology > p{
+    font-size: 40px;
+  }
+  .percent{
+    margin-top: 45%;
+    margin-left: 45%;
+  }
+  .icons{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 35px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #myname{
+    margin-left: 10%;
+  }
+  #desc-box{
+    margin-left: 12%;
+  }
+  .address{
+    margin-left: 10%;
+    font-family: Georgia, serif;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .firstlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .technology > p{
+    font-size: 40px;
+  }
+  .percent{
+    margin-top: 45%;
+    margin-left: 45%;
+  }
+  .icons{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 45px;
+  }
+  .bs{
+    margin-left: 300%;
+  }
+  .jq{
+    margin-top: 300%;
+    margin-left: 70%;
+  }
+  .js{
+    margin-top: 600%;
+    margin-left: -170%;
+  }
+  .php{
+    margin-top: 900%;
+    margin-left: -400%;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  #myname{
+    margin-left: 10%;
+  }
+  .ensure{
+    margin-left: 19%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .firstlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 35%;
+    text-align: center;
+    font-size: 25px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #dev-logo{
+    margin-left: 30%;
+  }
+  #main-text{
+    margin-top: 5%;
+    margin-left: 20%;
+    font-size: 25px;
+  }
+  #myname{
+    margin-left: 38%;
+  }
+  #desc-box{
+    margin-left: 39%;
+  }
+  .address{
+    margin-left: 37%;
+    font-family: Georgia, serif;
+  }
+  #main-text{
+    margin-left: 30%;
+    margin-bottom: 1%;
+    font-size: 60px;
+  }
+  #second-text{
+    margin-left: 23%;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .ensure{
+    margin-left: 5%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 5px 10px #888888;
+  }
+  .firstlayer{
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 28%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .technology > p{
+    font-size: 40px;
+  }
+  .percent{
+    margin-top: 45%;
+    margin-left: 45%;
+  }
+  .icons{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 45px;
+  }
+  .circle{
+    margin-left: 150%;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #myname{
+    margin-left: 33%;
+  }
+  #dev-logo{
+    margin-left: 20%;
+  }
+  #hireme{
+    margin-left: 8%;
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: maroon;
+    box-shadow: 5px 10px #888888;
+    color: #fff;
+  }
+  .technology > p{
+    font-size: 20px;
+  }
+  .percent{
+    margin-top: 45%;
+    margin-left: 45%;
+  }
+  .circle{
+    margin-left: 30%;
+  }
+  .icons{
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 45px;
+  }
+  .ensure{
+    margin-left: 5%;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 5px 10px #888888;
+  }
+  .ensure > img{
+    height: 20px;
+    width: 20px;
+  }
+  .firstlayer{
+    margin-left: 30%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .seclayer{
+    margin-left: 18%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .thirdlayer{
+    margin-left: 32%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .firstlayer > img{
+    height: 100px;
+    width: 100px;
+  }
+  .seclayer > img{
+    height: 100px;
+    width: 100px;
+  }
+  .thirdlayer > img{
+    height: 100px;
+    width: 100px;
+  }
+  #desc-box{
+    margin-left: 33%;
+  }
+  .address{
+      margin-left: 29%;
+  }
+}
