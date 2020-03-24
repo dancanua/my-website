@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="Keywords" content="Portfolio,Dan Canua,Programming">
 		<meta name="`Description" content="This is my online Portfolio. I love Web Development.">
+		<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -24,7 +25,7 @@
      data-aos-duration="1500">
 		<img id="dev-logo" class="img-fluid" src="image/developer.png" alt="Developer">
 		<h4 id="myname">Dan Canua</h4>
-		<span id="desc-box">web developer</span>
+		<span id="desc-box">I am a <span class="element"></span></span>
 		<br>
 		<br>
 		<p class="address">
@@ -93,7 +94,7 @@
 </div><!--second container -->
 <div class="container">
 	<div class="technology" data-aos="fade-in">
-		<p><img src="image/programming.png" class="img-responsive"> | My Technologies</p>
+		<p>My Technologies</p>
 	</div>
 	<div class="row">
 		<div class="col-md-3">
@@ -159,5 +160,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/circle-progress.js"></script>
 <script type="text/javascript" src="js/progressbar.js"></script>
+
+<!-- Type.Js CDn -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script>
+    var typed = new Typed('.element', {
+        strings: ["web developer", "web freelancer", "web architect"],
+        loop: true,
+        typeSpeed: 100,
+    });
+</script>
 </body>
 </html>
