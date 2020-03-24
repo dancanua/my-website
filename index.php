@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Website</title>
+	<title>Dan Canua - My Website</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="Keywords" content="Portfolio,Dan Canua,Programming">
