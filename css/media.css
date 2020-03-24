@@ -5,6 +5,12 @@
 
 @media (min-width: 1281px) {
   
+  .dev-logo{
+    height: 50%;
+    width: 30%;
+    border-radius: 30%;
+    margin-left: 5%
+  }
   #myname{
     margin-left: 8%;
   }
@@ -126,6 +132,12 @@
     margin-top: 15px;
     margin-left: 35px;
   }
+  .dev-logo{
+    height: 50%;
+    width: 30%;
+    border-radius: 30%;
+    margin-left: 5%
+  }
 }
 
 /* 
@@ -139,7 +151,7 @@
     margin-left: 10%;
   }
   #desc-box{
-    margin-left: 12%;
+    margin-left: 9%;
   }
   .address{
     margin-left: 10%;
@@ -197,6 +209,12 @@
     margin-top: 900%;
     margin-left: -400%;
   }
+  .dev-logo{
+    height: 50%;
+    width: 30%;
+    border-radius: 30%;
+    margin-left: 10%
+  }
 }
 
 /* 
@@ -232,6 +250,12 @@
     text-align: center;
     font-size: 25px;
   }
+  .dev-logo{
+    height: 50%;
+    width: 50%;
+    border-radius: 30%;
+    margin-left: 10%
+  }
 }
 
 /* 
@@ -253,7 +277,7 @@
     margin-left: 38%;
   }
   #desc-box{
-    margin-left: 39%;
+    margin-left: 35%;
   }
   .address{
     margin-left: 37%;
@@ -314,6 +338,12 @@
   }
   .circle{
     margin-left: 150%;
+  }
+  .dev-logo{
+    height: 40%;
+    width: 40%;
+    border-radius: 30%;
+    margin-left: 30%
   }
 }
 
@@ -399,5 +429,11 @@
   }
   .address{
       margin-left: 29%;
+  }
+  .dev-logo{
+    height: 40%;
+    width: 40%;
+    border-radius: 30%;
+    margin-left: 30%
   }
 }
