@@ -23,7 +23,7 @@
      data-aos-offset="300"
      data-aos-easing="ease-in-sine"
      data-aos-duration="1500">
-		<img id="dev-logo" class="img-fluid" src="image/developer.png" alt="Developer">
+		<img src="image/me.jpg" alt="Developer" class="dev-logo">
 		<h4 id="myname">Dan Canua</h4>
 		<span id="desc-box">I am a <span class="element"></span></span>
 		<br>
